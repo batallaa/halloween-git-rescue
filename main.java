@@ -13,7 +13,8 @@ public class main {
     public static void main(String[] args) {
         System.out.println("Sistema de la sala de servidores iniciado");
 
-        String securityLevel = "nightmare";
+        String securityLevel = "sanctuary";
+        
         System.out.println("Nivel de seguridad: " + securityLevel);
 
         if (checkAccess("admin")) {
